@@ -157,7 +157,7 @@ const RootTable = ({
     theme: { id: themeId },
   } = theme.useToken();
   const { colorPrimaryBgHover } = colorToken;
-  const numerousTests = data.length > 8;
+  const numerousTests = data.length > 1;
   const [isMergence, setIsMergence] = useState(numerousTests && defaultMerge);
   const [mergeLevel, setMergeLevel] = useState(defaultMergeLevel);
   return (
